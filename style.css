@@ -2,6 +2,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.note1 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.note2 {
+    background-color: aquamarine;
+    color: red;
+}
+
 #methodsList li {
     margin-bottom: 10px;
 }
@@ -25,6 +35,7 @@ body {
     /* 5px rounded corners */
     padding: 15px;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .card:hover {
